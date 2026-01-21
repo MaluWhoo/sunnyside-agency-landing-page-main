@@ -3,8 +3,7 @@
 @import url('../css/variables.css');
 
 header {
-    padding: clamp(28px, 4vh, 8%);
-    top: 0;
+    padding: 16px;
     font-family: var(--Barlow);
 
     background-image: url('../images/mobile/image-header.jpg');
@@ -44,17 +43,19 @@ header {
             li {
                 a {
                     text-decoration: none;
-                    font-size: 1rem;
-                    font-weight: 600;
+                    font-size: 20px;
+                    font-weight: 500;
                     color: var(--Grey-550);
                 }
 
                 .btn-default {
+                    font-family: var(--Fraunces);
                     text-transform: uppercase;
                     color: black;
-                    font-weight: 600;
+                    font-size: 18px;
+                    font-weight: 700;
                     border-radius: 32px;
-                    padding: 26px;
+                    padding: 18px 28px;
                     background-color: var(--Yellow-500);
                 }
             }
@@ -81,7 +82,7 @@ header {
         gap: 2.5rem;
 
         position: relative;
-        top: 20%;
+        top: clamp(40px, 8vh, 150px);
 
         h1 {
             font-size: 50px;
@@ -105,4 +106,34 @@ header {
     }
 }
 
+@media (min-width: 768px) {
+    header {
 
+        background-image: url('../images/desktop/image-header.jpg');
+
+        .navbar {
+
+            .btn-mobile {
+                display: none;
+            }
+             
+            ul {
+                display: flex;
+                flex-direction: row;
+                position: static;
+                background-color: transparent;
+
+                li {
+
+                    a {
+                        color: var(--White);
+                    }
+
+                    .btn-default {
+                        background-color: var(--White);
+                    }
+                }
+            }
+        }
+    }   
+}
