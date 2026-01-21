@@ -1,0 +1,49 @@
+.services {
+    .services-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .graphic-design {
+            width: 100%;
+            min-height: 90vh;
+
+            color: var(--Green-800);
+            background-image: url('../images/mobile/image-graphic-design.jpg');
+        }
+
+        .photography {
+            width: 100%;
+            min-height: 90vh;
+
+            color: var(--Blue-800);
+            background-image: url('../images/mobile/image-photography.jpg');
+        }
+    }
+}
+
+.card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
+    padding: 4rem 2rem;
+
+    h2 {
+        font-family: var(--Fraunces);
+        font-size: 38px;
+        font-weight: 900;
+    }
+
+    p {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
