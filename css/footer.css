@@ -73,14 +73,37 @@ footer {
         .footer-content {
             display: flex;
             align-items: stretch;
-        }
 
-        .footer-imgs {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            .footer-imgs {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
 
-            img {
-                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+
+            .footer-information {
+
+                .footer-links {
+
+                    .social-media {
+
+                        a {
+                            img {
+
+                                width: 26px;
+                                transition: 0.3s;
+
+                                &:hover {
+                                    cursor: pointer;
+
+                                    filter: brightness(0) invert(1);
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
