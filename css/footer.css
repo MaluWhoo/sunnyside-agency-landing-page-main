@@ -24,10 +24,8 @@ footer {
         align-items: center;
         justify-content: center;
 
-
         .logo {
             width: 200px;
-            color: var(--Green-500);
         }
 
         .footer-links {
@@ -97,7 +95,6 @@ footer {
 
                                 &:hover {
                                     cursor: pointer;
-
                                     filter: brightness(0) invert(1);
                                 }
                             }
