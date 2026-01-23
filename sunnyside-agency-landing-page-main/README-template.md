@@ -33,8 +33,8 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: []()
+- Live Site URL: [Git Pages](https://maluwhoo.github.io/sunnyside-agency-landing-page-main/)
 
 ## My process
 
@@ -55,24 +55,7 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
 
 ### Continued development
 
@@ -90,8 +73,8 @@ PROCURAR LINKS SOBRE O CSS, O CSS GRID
 
 ## Author
 
-- Website - [Add your name here]()
-- Frontend Mentor - [@yourusername]()
+- Website - [GitHub](https://github.com/MaluWhoo)
+- Frontend Mentor - [@MaluWhoo](https://www.frontendmentor.io/profile/MaluWhoo)
 
 ## Acknowledgments
 
